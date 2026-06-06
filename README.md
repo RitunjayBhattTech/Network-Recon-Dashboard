@@ -19,3 +19,21 @@ A powerful, user-friendly web interface for network security auditing. This tool
    ```bash
    git clone [https://github.com/YOUR_USERNAME/Network-Recon-Dashboard.git](https://github.com/YOUR_USERNAME/Network-Recon-Dashboard.git)
    cd Network-Recon-Dashboard
+Setup a virtual environment:
+
+Bash
+python3 -m venv .venv
+source .venv/bin/activate
+Install dependencies:
+
+Bash
+pip install -r requirements.txt
+🖥 Usage
+Run the application using the following command:
+
+Bash
+sudo .venv/bin/python3 app.py
+Then, open your browser and navigate to http://127.0.0.1:5000.
+
+⚠️ Disclaimer
+This tool is for educational and authorized security testing purposes only. The developer assumes no liability for any misuse of this tool. Always ensure you have explicit permission before scanning any network.

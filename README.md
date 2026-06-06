@@ -19,15 +19,16 @@ A powerful, user-friendly web interface for network security auditing. This tool
    ```bash
    git clone [https://github.com/YOUR_USERNAME/Network-Recon-Dashboard.git](https://github.com/YOUR_USERNAME/Network-Recon-Dashboard.git)
    cd Network-Recon-Dashboard
-Setup a virtual environment:
+2.Setup a virtual environment:
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
 
-Bash
-python3 -m venv .venv
-source .venv/bin/activate
-Install dependencies:
+3.Install dependencies:
 
-Bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+
 🖥 Usage
 Run the application using the following command:
 
